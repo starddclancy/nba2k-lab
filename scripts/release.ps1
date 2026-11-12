@@ -43,10 +43,10 @@ try {
         -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true `
         -p:EnableCompressionInSingleFile=true -o (Join-Path $directory 'build') *> (Join-Path $directory 'publish.log')
     if ($LASTEXITCODE -ne 0) { throw 'Publish failed' }
-    $exe = Join-Path $directory "Nba2k27Editor-$version.exe"
+    $exe = Join-Path $directory "NBA2K-Lab-$version.exe"
     Copy-Item -LiteralPath (Join-Path $directory 'build/Nba2k27Editor.exe') -Destination $exe -Force
-    $zip = Join-Path $directory "nba2k27-editor-$version-win-x64.zip"
-    Compress-Archive -LiteralPath (Join-Path $directory 'build/Nba2k27Editor.exe') -DestinationPath $zip -Force
+    $zip = Join-Path $directory "NBA2K-Lab-$version-win-x64.zip"
+    Compress-Archive -LiteralPath $exe -DestinationPath $zip -Force
     foreach ($file in @('README.md', 'FEATURE_PARITY.md', 'CHANGELOG.md', 'DELIVERY.md')) {
         Copy-Item -LiteralPath (Join-Path $repo $file) -Destination $directory -Force
     }

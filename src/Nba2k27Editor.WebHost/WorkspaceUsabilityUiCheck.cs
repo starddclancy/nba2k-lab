@@ -303,6 +303,10 @@ internal static class WorkspaceUsabilityUiCheck
                 }
 
                 await Wait("!!document.querySelector('.shell-status button')");
+                if (form!.Text != "NBA2K Lab") throw new InvalidOperationException("Native window title mismatch");
+                await Expect("productBranding", """
+                    document.title==='NBA2K Lab'&&document.querySelector('.shell-brand')?.textContent.includes('NBA2K Lab')
+                    """);
                 await Eval("""
                     window.__workspaceUi={requests:[],byId:{},replies:{},errors:[],blocked:[],visits:{}};
                     const u=window.__workspaceUi;

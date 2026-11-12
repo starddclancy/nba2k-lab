@@ -8,6 +8,10 @@
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>Nba2k27Editor</AssemblyName>
     <Version>1.0.0</Version>
+    <Product>NBA2K Lab</Product>
+    <Title>NBA2K Lab</Title>
+    <AssemblyTitle>NBA2K Lab</AssemblyTitle>
+    <Description>NBA 2K27 editor</Description>
     <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     <RootNamespace>Nba2k27Editor.WebHost</RootNamespace>
     <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>

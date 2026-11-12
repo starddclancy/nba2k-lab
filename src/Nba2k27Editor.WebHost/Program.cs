@@ -227,7 +227,7 @@ internal sealed class EditorForm : Form
         _bridge = new Bridge(matchDebugReads, matchDiagnosticWrites, scheduleWrites);
         _onReady = onReady;
         _matchOnly = matchOnly;
-        Text = "NBA 2K27 球员编辑器";
+        Text = "NBA2K Lab";
         Width = 1440;
         Height = 900;
         MinimumSize = new Size(1100, 700);

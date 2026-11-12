@@ -1,12 +1,12 @@
-# NBA2K27 Editor
+# NBA2K Lab
 
-NBA 2K27 PC 中文编辑器，首次正式发布版本 **1.0.0**。
+NBA2K Lab 是 NBA 2K27 PC 中文编辑器，首次正式发布版本 **1.0.0**。
 使用 C#、React 和 WebView2，提供单文件 Windows 程序。
 
 ## 下载与运行
 
-在本仓库 Releases 中下载 `nba2k27-editor-1.0.0-win-x64.zip`，解压后运行
-`Nba2k27Editor-1.0.0.exe`。也可直接下载独立 EXE。
+在本仓库 Releases 中下载 `NBA2K-Lab-1.0.0-win-x64.zip`，解压后运行
+`NBA2K-Lab-1.0.0.exe`。也可直接下载独立 EXE。
 
 运行环境：
 

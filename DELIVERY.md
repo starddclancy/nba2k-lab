@@ -1,11 +1,11 @@
-# 1.0.0 发布文件
+# NBA2K Lab 1.0.0 发布文件
 
 首次正式发布，标签为 `v1.0.0`。
 
 | 文件 | 用途 |
 | --- | --- |
-| `Nba2k27Editor-1.0.0.exe` | 独立运行程序，内嵌 .NET 运行时、前端和资源 |
-| `nba2k27-editor-1.0.0-win-x64.zip` | Windows 压缩包 |
+| `NBA2K-Lab-1.0.0.exe` | 独立运行程序，内嵌 .NET 运行时、前端和资源 |
+| `NBA2K-Lab-1.0.0-win-x64.zip` | Windows 压缩包 |
 | `SHA256SUMS.txt` | EXE 和 ZIP 的 SHA-256 校验值 |
 | `VALIDATION.md` | 本次发布的检查结果 |
 

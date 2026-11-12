@@ -36,7 +36,7 @@ public sealed class MainForm : Form
 
     public MainForm()
     {
-        Text = $"NBA 2K27 球员编辑器 {AppVersion.Value}";
+        Text = $"NBA2K Lab {AppVersion.Value}";
         Width = 1280;
         Height = 820;
         StartPosition = FormStartPosition.CenterScreen;

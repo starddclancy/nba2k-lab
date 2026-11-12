@@ -157,7 +157,7 @@ export default function Shell() {
         <WorkspaceContext.Provider value={{ route, seasonEndYear: session?.seasonEndYear ?? null }}>
         <Layout className="shell">
             <header className="shell-top">
-                <div className="shell-brand"><span className="brand-mark" aria-hidden>2K27</span><span>Roster Lab</span></div>
+                <div className="shell-brand"><span className="brand-mark" aria-hidden>2K27</span><span>NBA2K Lab</span></div>
                 <nav className="shell-groups" aria-label="模块分组">
                     {navGroups.map((group) => <button key={group.label} type="button"
                         className={activeGroup === group ? 'active' : ''}
