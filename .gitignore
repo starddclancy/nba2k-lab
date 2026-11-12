@@ -1,0 +1,11 @@
+**/bin/
+**/obj/
+**/node_modules/
+publish/
+web/dist/
+artifacts/
+.vs/
+*.user
+*.suo
+*.local.json
+.superdesign/tmp/
